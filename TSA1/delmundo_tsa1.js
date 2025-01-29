@@ -1,11 +1,11 @@
 function changeColor(theme) {
-    document.body.classList.remove('pink2-theme', 'pink3-theme', 'pink1-theme');
+    document.body.classList.remove('lavender2-theme', 'lavender3-theme', 'lavender1-theme');
     
-    if (theme === 'pink2') {
-        document.body.classList.add('pink2-theme');
-    } else if (theme === 'pink3') {
-        document.body.classList.add('pink3-theme');
+    if (theme === 'lavender2') {
+        document.body.classList.add('lavender2-theme');
+    } else if (theme === 'lavender3') {
+        document.body.classList.add('lavender3-theme');
     } else {
-        document.body.classList.add('pink1-theme');
+        document.body.classList.add('lavender1-theme');
     }
 }
