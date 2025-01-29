@@ -7,7 +7,7 @@
 }
 
 body {
-   background-color: rgb(233, 229, 255);
+   background-color: rgb(238, 233, 255);
    display: flex;
    justify-content: center;
    align-items: center;
@@ -21,15 +21,15 @@ body {
    max-width: 1000px;
    min-height: 1000px;
    margin: 50px;
-   background-color: rgb(112, 120, 207);
+   background-color: rgb(175, 132, 255);
    display: grid;
    grid-template-columns: 1fr 2fr;
-   box-shadow: 0 2px 18px rgb(101, 97, 231);
+   box-shadow: 0 2px 18px rgb(186, 125, 235);
 }
 
 .container .left_Side {
    position: relative;
-   background-color: rgb(32, 129, 177);
+   background-color: rgb(160, 90, 255);
    padding: 40px;
 }
 
@@ -40,7 +40,7 @@ body {
    flex-direction: column;
    align-items: center;
    padding-bottom: 2px;
-   border-bottom: 3px solid rgb(250, 219, 237);
+   border-bottom: 3px solid rgb(239, 215, 255);
    letter-spacing: 1px;
 }
 
@@ -49,7 +49,7 @@ body {
    width: 200px;
    height: 200px;
    border-radius: 50%;
-   border: 4px solid rgb(219, 250, 233);
+   border: 4px solid rgb(239, 215, 255);
    overflow: hidden;
 }
 
@@ -63,7 +63,7 @@ body {
 
 .profileText h2 {
    position: relative;
-   color: rgb(250, 219, 235);
+   color: rgb(239, 215, 255);
    margin: 20px 0;
    font-size: 1.5em;
    text-transform: uppercase;
@@ -74,7 +74,7 @@ body {
 
 .profileText h2 span {
    position: relative;
-   color: rgb(219, 241, 250);
+   color: rgb(239, 215, 255);
    font-weight: 400;
    font-size: 0.8em;
    text-transform: none;
@@ -85,7 +85,7 @@ body {
 }
 
 .title {
-   color: rgb(250, 219, 235);
+   color: rgb(239, 215, 255);
    text-transform: uppercase;
    font-weight: 600;
    letter-spacing: 1px;
@@ -94,7 +94,7 @@ body {
 
 .contactInfo ul {
    position: relative;
-   border-bottom: 2px solid rgb(250, 219, 235);
+   border-bottom: 2px solid rgb(239, 215, 255);
 }
 
 .contactInfo ul li {
@@ -108,11 +108,11 @@ body {
    display: inline-block;
    width: 30px;
    font-size: 20px;
-   color: rgb(250, 219, 235);
+   color: rgb(239, 215, 255);
 }
 
 .contactInfo ul li span {
-   color: rgb(219, 248, 250);
+   color: rgb(239, 215, 255);
    font-weight: 300;
 }
 
@@ -149,25 +149,25 @@ body {
 .skillbar.learning::before 
 {
    width: calc(30% - 10px);
-   background: #9088ff;
+   background: #c29bff;
 }
 
 .skillbar.basic::before 
 {
    width: calc(50% - 10px);
-   background: #3ed5cb;
+   background: #a075f9;
 }
 
 .skillbar.advanced::before 
 {
    width: calc(80% - 10px);
-   background: #3a40ea;
+   background: #9a53f7;
 }
 
 .skillbar.expert::before 
 {
    width: calc(70% - 10px);
-   background: #a15aee;
+   background: #8d29f4;
 }
 
 
@@ -175,7 +175,7 @@ body {
 .container .right_Side 
 {
    position: relative;
-   background-color: rgb(255, 240, 248);
+   background-color: rgb(247, 238, 255);
    padding: 40px;
 }
 
@@ -185,7 +185,7 @@ body {
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: rgb(69, 15, 186);
+    color: rgb(135, 92, 199);
     text-shadow : 2px 0px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -193,22 +193,22 @@ body {
 {
     position: relative;
     font-size: 17px;
-    color: rgb(118, 7, 126);
+    color: rgb(120, 59, 174);
     line-height: normal;
     padding: 20px;
-    border-bottom: 3px solid rgb(169, 14, 94);
+    border-bottom: 3px solid rgb(151, 76, 203);
 
 }
 
 .aboutMe span
 {
-    color: rgb(15, 160, 186);
+    color: rgb(135, 92, 199);
     font-weight: 600;
     
 }
 
 .education{
-    border-bottom: 3px solid rgb(63, 14, 169);
+    border-bottom: 3px solid rgb(151, 76, 203);
 
 }
 .education h3
@@ -217,7 +217,7 @@ body {
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: rgb(15, 41, 186);
+    color: rgb(135, 92, 199);
     text-shadow : 2px 0px 1px rgba(0, 0, 0, 0.5);
     
 }
@@ -228,13 +228,13 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    color: #47228d;
+    color: #6f309e;
     padding: 20px;
 
 }
 
 .achievements{
-    border-bottom: 3px solid rgb(14, 63, 169);
+    border-bottom: 3px solid rgb(151, 76, 203);
 
 }
 .achievements h3
@@ -243,14 +243,14 @@ body {
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: rgb(15, 55, 186);
+    color: rgb(135, 92, 199);
     text-shadow : 2px 0px 1px rgba(0, 0, 0, 0.5);
 }
 
 .achievements ul li
 {
    padding-left: 20px;
-    color: #50228d;
+    color: #6f309e;
     list-style: none;
    
 }
@@ -277,145 +277,144 @@ body {
     opacity: 0.8;
   }
   
-  .color-btn.pink1 {
-    background-color: rgb(114, 32, 177);
+  .color-btn.lavender1 {
+    background-color: rgb(160, 90, 255);
     color: white;
   }
   
-  .color-btn.pink2 {
-    background-color: #0927a1;
+  .color-btn.lavender2 {
+    background-color: #8643d3;
     color: white;
   }
   
-  .color-btn.pink3 {
-    background-color: #2d2af5;
+  .color-btn.lavender3 {
+    background-color: #a75ff6;
     color: white;
   }
   
-  /* pink 1 theme*/
-  .pink1-theme .container {
-    background-color: rgb(152, 112, 207);
-    color: rgb(250, 219, 235);
+  /* lavender 1 theme*/
+  .lavender1-theme .container {
+    background-color: rgb(175, 132, 255);
+    color: rgb(239, 215, 255);
   }
   
-  .pink1-theme .left_Side {
-    background-color: rgb(32, 56, 177);
-    color: rgb(250, 219, 235);
+  .lavender1-theme .left_Side {
+    background-color: rgb(160, 90, 255);
+    color: rgb(239, 215, 255);
   }
   
-  .pink1-theme .right_Side {
-    background-color: rgb(255, 240, 248);
-    color: rgb(41, 7, 126);
+  .lavender1-theme .right_Side {
+    background-color: rgb(247, 238, 255);
+    color: rgb(120, 59, 174);
   }
   
-  /* pink 2 theme */
-  .pink2-theme .container {
-    background-color: #434dd1;
-    color: #fff9d9;
+  /* lavender 2 theme */
+  .lavender2-theme .container {
+    background-color: #9b5bd6;
+    color: #f6e0ff;
     
   }
   
-  .pink2-theme .left_Side {
-    background-color: #4609a1;
+  .lavender2-theme .left_Side {
+    background-color: #8643d3;
    
   }
   
-  .pink2-theme .right_Side {
-    background-color: #fff7de;
-    color: #edacd3;
+  .lavender2-theme .right_Side {
+    background-color: #f1e3fc;
+    color: #b7a2db;
   }
   
-  .pink2-theme .title .h3,
-  .pink2-theme .aboutMe p,
-  .pink2-theme .education ul li,
-  .pink2-theme .achievements ul li {
+  .lavender2-theme .title .h3,
+  .lavender2-theme .aboutMe p,
+  .lavender2-theme .education ul li,
+  .lavender2-theme .achievements ul li {
     
-    color: #132e60;
+    color: #4b2f7e;
   }
   
-  /* pink3 theme styles */
-  .pink3-theme .container {
-    background-color: #b6b1f8;
+  /* lavender 3 theme styles */
+  .lavender3-theme .container {
+    background-color: #cda9f9;
     color: white;
   }
   
-  .pink3-theme .left_Side {
-    background-color: #2a37f5;
+  .lavender3-theme .left_Side {
+    background-color: #a75ff6;
     color: white;
   }
   
-  .pink3-theme .right_Side {
-    background-color: #000000;
+  .lavender3-theme .right_Side {
+    background-color: #3d2a4e;
     color: white;
   }
   
-  .pink3-theme .title h3,
-  .pink3-theme .aboutMe p,
-  .pink3-theme .education ul li,
-  .pink3-theme .achievements ul li {
-    color: #ffc6e9;
+  .lavender3-theme .title h3,
+  .lavender3-theme .aboutMe p,
+  .lavender3-theme .education ul li,
+  .lavender3-theme .achievements ul li {
+    color: #e8b8f1;
   }
   
-  /* pink 1 theme skill bars */
+  /* lavender 1 theme skill bars */
 .default-theme .skillbar {
     background-color: #e5e5e5;
   }
   
   .default-theme .skillbar.learning::before {
-    background: #88dbff;
+    background: #c29bff;
   }
   
   .default-theme .skillbar.basic::before {
-    background: #553ed5;
+    background: #a075f9;
   }
   
   .default-theme .skillbar.advanced::before {
-    background: #3a83ea;
+    background: #9a53f7;
   }
   
   .default-theme .skillbar.expert::before {
-    background: #5c5aee;
+    background: #8d29f4;
   }
   
-  /* pink 2 theme skill bars */
-  .pink2-theme .skillbar {
-    background-color: #f6fdcf;
+  /* lavender 2 theme skill bars */
+  .lavender2-theme .skillbar {
+    background-color: #f4e8ff;
   }
   
-  .pink2-theme .skillbar.learning::before {
-    background: #eb87aa;
+  .lavender2-theme .skillbar.learning::before {
+    background: #c8a0e0;
   }
   
-  .pink2-theme .skillbar.basic::before {
-    background: #b92c60;
+  .lavender2-theme .skillbar.basic::before {
+    background: #9b5bd6;
   }
   
-  .pink2-theme .skillbar.advanced::before {
-    background: #be2b5c;
+  .lavender2-theme .skillbar.advanced::before {
+    background: #a155db;
   }
   
-  .pink2-theme .skillbar.expert::before {
-    background: #b5446b;
+  .lavender2-theme .skillbar.expert::before {
+    background: #7a39b3;
   }
   
-  /* pink 3 theme skill bars */
-  .pink3-theme .skillbar {
-    background-color: #fff4d8;
+  /* lavender 3 theme skill bars */
+  .lavender3-theme .skillbar {
+    background-color: #f5d8ff;
   }
   
-  .pink3-theme .skillbar.learning::before {
-    background: #fb7bcc;
+  .lavender3-theme .skillbar.learning::before {
+    background: #d29df0;
   }
   
-  .pink3-theme .skillbar.basic::before {
-    background: #d81570;
+  .lavender3-theme .skillbar.basic::before {
+    background: #a775e3;
   }
   
-  .pink3-theme .skillbar.advanced::before {
-    background: #e21d93;
+  .lavender3-theme .skillbar.advanced::before {
+    background: #9b66e2;
   }
   
-  .pink3-theme .skillbar.expert::before {
-    background: #e11f8a;
+  .lavender3-theme .skillbar.expert::before {
+    background: #8b5fd6;
   }
-  
