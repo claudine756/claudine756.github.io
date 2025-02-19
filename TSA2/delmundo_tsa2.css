@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -31,7 +30,7 @@ button {
   /* Variables */
   --button_radius: 0.75em;
   --button_outline_color: #000000;
-  background-color: #252020;
+  background-color: #d3a6c6; /* Pastel pink */
   font-size: 1.4rem;
   font-weight: bold;
   border: none;
@@ -72,11 +71,56 @@ button:active .button_top {
   opacity: 0%;
 }
 
-
 .in-box {
   width: 100%;
   height: 100%;
   /* transition-delay: 0.3s; */
   transition-duration: 1s;
   opacity: 100%;
+}
+
+
+/* Pastel colors for each day */
+.sun {
+  border: 10px solid #f8d9e0; /* Pastel peach */
+}
+.mon {
+  border: 10px solid #f5c4a1; /* Pastel orange */
+}
+.tue {
+  border: 10px solid #f4e1a1; /* Pastel yellow */
+}
+.wed {
+  border: 10px solid #a3d8a3; /* Pastel green */
+}
+.thur {
+  border: 10px solid #a3c9f7; /* Pastel blue */
+}
+.fri {
+  border: 10px solid #a1b6f5; /* Pastel indigo */
+}
+.sat {
+  border: 10px solid #c1a1f5; /* Pastel violet */
+}
+
+.sun .in-box {
+  background-color: #f8d9e0; /* Pastel peach */
+}
+.mon .in-box {
+  background-color: #f5c4a1; /* Pastel orange */
+}
+.tue .in-box {
+  background-color: #f4e1a1; /* Pastel yellow */
+}
+.wed .in-box {
+  background-color: #a3d8a3; /* Pastel green */
+}
+.thur .in-box {
+  background-color: #a3c9f7; /* Pastel blue */
+}
+.fri .in-box {
+  background-color: #a1b6f5; /* Pastel indigo */
+}
+.sat .in-box {
+  background-color: #c1a1f5; /* Pastel violet */
 }
