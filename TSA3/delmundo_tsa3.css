@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url("360_F_276573662_eyJfKogbNx2VokZpJluOH2WOSRAx5yJa.jpg");
+    background-image: url("https://i.pinimg.com/736x/71/08/e6/7108e660c02aa7a47dc6c993d027b60f.jpg");
     background-repeat: no-repeat;   
     background-size: cover;
     display: flex;
@@ -21,8 +21,7 @@ body{
     gap: 10px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    background-image: url("triangles2.jpg");
-    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/736x/b6/5e/dc/b65edca918c72a94d451daba58e09419.jpg");
     width: 500px;
     height: 650px;
     border-radius: 20px;
@@ -32,7 +31,7 @@ body{
 
 #display{
     padding: 10px;
-    background-color: gray;
+    background-color: #FF9999;
     display: flex;
     justify-items: end;
     font-family: "Orbitron", sans-serif;
@@ -49,7 +48,7 @@ button{
     box-shadow: 0px 5px 7px gray;
     font-family: "VT323", monospace;
     font-size: 60px;
-    background-color: lightslategray;
+    background-color: #e75480;
 }
 button:active{
     background-color: black;
