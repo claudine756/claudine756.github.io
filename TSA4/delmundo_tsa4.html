@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Summative Assessment 4</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="delmundo_tsa4.css">
+    <script src="delmundo_tsa4.js"></script>
+</head>
+
+<body>
+    <div class="background-container">
+        <!-- HEADER -->
+        <div class="container-fluid d-flex flex-column align-items-center justify-content-center">
+            <div class="row d-flex w-100 align-items-center justify-content-center">
+                <div class="col-md-8 header ">
+                    <img src="" alt="">
+                    <h1>RESTAURANT GUIDE</h1>
+                    <h3>PRODUCED BY: LOCAL MAGAZINE</h3>
+                </div>
+                <button class="floating-menu" onclick="mainMenu()">Main Menu</button>
+                <div class="col-md-4 menu" onclick="mainMenu()">
+                    <button>Main Menu</button>
+                </div>
+            </div>
+
+            <!-- FOOD CARDS -->
+            <div class="food-container w-100 d-flex align-items-center row justify-content-center">
+                <div class="col-md-3 filler-col"></div>
+                <div class="food-card-container col-sm-9 p-0">
+                    <div class="card food-card" onclick="showCard('card1')" id="first-container">
+                        <div class="food-name">SPAGHETTI CARBONARA</div>
+                        <div class="card-footer">
+                            <hr>
+                            <p>Creamy, cheesy, and topped with crispy pancetta!</p>
+                            <hr>
+                            <i class="bi bi-play-circle"> More</i>
+                        </div>
+                    </div>
+                    <div class="card food-card" onclick="showCard('card2')" id="second-container">
+                        <div class="food-name">GRILLED SALMON</div>
+                        <div class="card-footer">
+                            <hr>
+                            <p>Perfectly grilled salmon with a zesty lemon butter sauce.</p>
+                            <hr>
+                            <i class="bi bi-play-circle"> More</i>
+                        </div>
+                    </div>
+                    <div class="card food-card" onclick="showCard('card3')" id="third-container">
+                        <div class="food-name">BBQ RIBS</div>
+                        <div class="card-footer">
+                            <hr>
+                            <p>Slow-cooked, fall-off-the-bone ribs smothered in BBQ sauce.</p>
+                            <hr>
+                            <i class="bi bi-play-circle"> More</i>
+                        </div>
+                    </div>
+                    <div class="card food-card" onclick="showCard('card4')" id="fourth-container">
+                        <div class="food-name">MARGHERITA PIZZA</div>
+                        <div class="card-footer">
+                            <hr>
+                            <p>A classic pizza topped with fresh mozzarella and basil.</p>
+                            <hr>
+                            <i class="bi bi-play-circle"> More</i>
+                        </div>
+                    </div>
+
+                    <!-- CONTENT CARDS -->
+                    <div class="content-card row" id="card1">
+                        <div class="col col-lg-1 name-container">
+                            <h1 class="sidename scale">Spaghetti Carbonara</h1>
+                        </div>
+                        <div class="images col-lg-4">
+                            <img src="assets/carbonaraCard.jpg" alt="">
+                        </div>
+                        <div class="description col-lg-7">
+                            <div class="desc">
+                                <h1>Spaghetti Carbonara</h1>
+                                <div class="info">
+                                    <div class="resto-info location col-6">
+                                        <p>ROMA RISTORANTE <br>
+                                            ROME, ITALY 00185 <br>
+                                            T: +39 06 1234 5678 <br>
+                                            W: CARBONARA HOUSE</p>
+                                    </div>
+                                    <div class="resto-info col-6">
+                                        <p>CATEGORY: Italian Cuisine <br>
+                                            OPEN: 12PM - 11PM <br>
+                                            PRICE: $$</p>
+                                    </div>
+                                </div>
+                                <div class="bginfo">
+                                    <p class="content-info">
+                                        A classic Italian pasta dish made with eggs, cheese, pancetta, and black pepper, served creamy and rich.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-card row" id="card2">
+                        <div class="col col-lg-1 name-container">
+                            <h1 class="sidename scale">Grilled Salmon</h1>
+                        </div>
+                        <div class="images col-lg-4">
+                            <img src="assets/salmonCard.jpg" alt="">
+                        </div>
+                        <div class="description col-lg-7">
+                            <div class="desc">
+                                <h1>Grilled Salmon</h1>
+                                <div class="info">
+                                    <div class="resto-info location col-6">
+                                        <p>OCEAN BREEZE <br>
+                                            SEATTLE, WA 98101 <br>
+                                            T: (206) 987-6543 <br>
+                                            W: SEAFOOD DELIGHT</p>
+                                    </div>
+                                    <div class="resto-info col-6">
+                                        <p>CATEGORY: Seafood Cuisine <br>
+                                            OPEN: 11AM - 10PM <br>
+                                            PRICE: $$$</p>
+                                    </div>
+                                </div>
+                                <div class="bginfo">
+                                    <p class="content-info">
+                                        Freshly grilled salmon filet with a buttery lemon glaze, served with a side of roasted vegetables.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-card row" id="card3">
+                        <div class="col col-lg-1 name-container">
+                            <h1 class="sidename scale">BBQ Ribs</h1>
+                        </div>
+                        <div class="images col-lg-4">
+                            <img src="assets/ribsCard.jpg" alt="">
+                        </div>
+                        <div class="description col-lg-7">
+                            <div class="desc">
+                                <h1>BBQ Ribs</h1>
+                                <div class="info">
+                                    <div class="resto-info location col-6">
+                                        <p>SMOKEHOUSE GRILL <br>
+                                            AUSTIN, TX 73301 <br>
+                                            T: (512) 876-4321 <br>
+                                            W: BBQ HAVEN</p>
+                                    </div>
+                                    <div class="resto-info col-6">
+                                        <p>CATEGORY: American Cuisine <br>
+                                            OPEN: 1PM - 12AM <br>
+                                            PRICE: $$</p>
+                                    </div>
+                                </div>
+                                <div class="bginfo">
+                                    <p class="content-info">
+                                        Slow-smoked pork ribs slathered in tangy barbecue sauce, served with coleslaw and cornbread.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
